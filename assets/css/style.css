@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("assets/font/SFPRODISPLAYREGULAR.OTF") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030303;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 93px;
+}
+
+.logo img {
+    width: 248px;
+    height: 84px;
+}
+
+.wrappermenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+}
+
+.wrappermenu li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Home */
+.home {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 30px 93px;
+}
+
+.wrapper-textimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textkiri {
+    display: block;
+}
+
+.home .textkiri h5 {
+    color: #9A9A9A;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    margin: 30px 0;
+}
+
+.home .textkiri h4 {
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: 3px;
+    margin: 30px 0;
+    width: 70%;
+}
+
+.home .textkiri p {
+    color: #9A9A9A;
+    font-size: 18px;
+    width: 50%;
+    text-align: justify;
+}
+
+.cta {
+    margin: 30px 0;
+}
+
+.cta a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cta span {
+    color: #9A9A9A;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.linkedin {
+    margin: 0 20px;
+}
+
+.imgkanan img {
+    width: 750px;
+    height: auto;
+}
+
+/* selected project */
+
+.casestudy {
+    max-width: 1300px;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 30px 93px;
+}
+
+.casestudy .textatas h5 {
+    color: #9A9A9A;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8.7px;
+    font-weight: 400;
+}
+
+.casestudy .textatas h4 {
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+.textatas {
+    display: block;
+
+}
+
+.cardproject {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.card1 {
+    width: 750px;
+    height: 988px;
+    margin-right: 50px;
+    padding: 30px 93px;
+}
+
+.casestudy .card1 .textwrappercard1 h5 {
+    color: #9A9A9A;
+    font-size: 20px;
+}
+
+.card2 {
+    width: 750px;
+    height: 988px;
+    padding: 30px 93px;
+}
+
+.cardproject .card1 img {
+    width: 750px;
+    height: auto;
+}
+
+.cardproject .card2 img {
+    width: 750px;
+    height: auto;
+}
+
+@media (max-width: 1300px) {
+    .wrappermenu {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrappermenu {
+        width: 40%;
+    }
+}
+
+@media (max-width: 567px; ) {}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 30px 40px;
+    }
+
+    .wrappermenu {
+        width: 40%;
+    }
+
+    .wrappermenu li a {
+        font-size: 16px;
+    }
+
+    /* home */
+
+    .home {
+        height: 50vh;
+        padding: 30px 40px;
+    }
+
+    .home .textkiri h5 {
+        font-size: 18px;
+    }
+
+    .home .textkiri h4 {
+        font-size: 24px;
+        width: 85%;
+    }
+
+    .home .textkiri p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .imgkanan img {
+        width: 345px;
+        height: auto;
+    }
+
+    .cta a {
+        font-size: 14px;
+    }
+
+    .instagram {
+        width: 24px;
+        height: 24px;
+    }
+
+    .linkedin {
+        width: 24px;
+        height: 24px;
+        margin: 0 30px;
+    }
+
+    .dribbble {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* casestudy */
+    .casestudy {
+        height: 798px;
+        padding: 30px 40px;
+    }
+
+    .casestudy .textatas h5 {
+        font-size: 16px;
+    }
+
+    .casestudy .textatas h4 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .cardproject {
+        margin-top: 30px;
+    }
+
+    .card1 {
+        height: 660px;
+        margin-right: 30px;
+        padding: 0px 0px;
+    }
+
+    .card2 {
+        height: 660px;
+        padding: 0px 0px;
+    }
+
+    .cardproject .card1 img {
+        width: 320px;
+        height: auto;
+    }
+
+    .textwrappercard1 {
+        margin: 30px 0;
+    }
+
+    .cardproject .card1 .textwrappercard1 h5 {
+        font-size: 14px;
+        color: #9A9A9A;
+    }
+
+    .cardproject .card1 .textwrappercard1 h4 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .cardproject .card1 .textwrappercard1 p {
+        position: relative;
+        color: #9A9A9A;
+        top: 15px;
+        width: 85%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .cardproject .card2 img {
+        width: 320px;
+        height: auto;
+    }
+
+    .textcardicon a {
+        position: relative;
+        color: #fff;
+        font-weight: 600;
+        top: 30px;
+        letter-spacing: 5px;
+        text-decoration: none;
+    }
+
+    .textwrappercard2 {
+        margin: 30px 0;
+    }
+
+    .cardproject .card2 .textwrappercard2 h5 {
+        font-size: 14px;
+        color: #9A9A9A;
+    }
+
+    .cardproject .card2 .textwrappercard2 h4 {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .cardproject .card2 .textwrappercard2 p {
+        position: relative;
+        color: #9A9A9A;
+        top: 15px;
+        width: 85%;
+        font-size: 14px;
+        text-align: justify;
+    }
+}
