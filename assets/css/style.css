@@ -190,8 +190,6 @@ body {
     }
 }
 
-@media (max-width: 567px; ) {}
-
 @media (max-width: 768px) {
     .navbar {
         padding: 30px 40px;
@@ -346,5 +344,138 @@ body {
         width: 85%;
         font-size: 14px;
         text-align: justify;
+    }
+}
+
+@media (max-width: 567px) {
+    .navbar .wrappermenu {
+        width: 40%;
+    }
+
+    .navbar .wrappermenu li a {
+        font-size: 14px;
+    }
+
+    .navbar .logo img {
+        width: 165px;
+        height: 56px;
+    }
+
+    /* home */
+    .home {
+        height: 90vh;
+    }
+
+    .textkiri {
+        height: 370px;
+    }
+
+    .home .textkiri h5 {
+        font-size: 16px;
+    }
+
+    .home .textkiri h4 {
+        font-size: 20px;
+    }
+
+    .home .textkiri p {
+        font-size: 14px;
+    }
+
+    .home .imgkanan img {
+        width: 345px;
+        height: 345px;
+    }
+
+    .wrapper-textimg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Selected Project */
+
+    .casestudy {
+        height: 1690px;
+    }
+
+    .cardproject {
+        display: block;
+    }
+
+    .card1 {
+        width: 470px;
+        height: 770px;
+    }
+
+    .cardproject .card1 img {
+        width: 470px;
+        height: auto;
+    }
+
+    .card2 {
+        width: 470px;
+        height: 770px;
+    }
+
+    .cardproject .card2 img {
+        width: 470px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 409px) {
+    .navbar {
+        padding: 20px 15px;
+    }
+
+    .navbar .wrappermenu {
+        width: 50%;
+    }
+
+    .navbar .wrappermenu li a {
+        font-size: 12px;
+    }
+
+    .navbar .logo img {
+        width: 152px;
+        height: 51px;
+    }
+
+    /* home */
+    .home {
+        height: 85vh;
+        padding: 20px 15px;
+    }
+
+    .home .imgkanan img {
+        width: 329px;
+        height: 329px;
+    }
+
+    /* selected project */
+    .casestudy {
+        height: 1400px;
+        padding: 20px 15px;
+    }
+
+    .cardproject .card1 img {
+        width: 362px;
+        height: auto;
+    }
+
+    .card1 {
+        width: 362px;
+        height: 640px;
+    }
+
+    .card2 {
+        width: 362px;
+        height: 640px;
+    }
+
+    .cardproject .card2 img {
+        width: 362px;
+        height: auto;
     }
 }
