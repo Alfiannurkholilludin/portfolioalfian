@@ -116,11 +116,264 @@ body {
 
 /* selected project */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) and (max-width: 1918px) {
 
-@media (min-width: 1200px) {}
+    /* navbar */
+    .navbar {
+        padding: 20px 70px;
+    }
 
-@media (min-width: 992px) {}
+    .wrappermenu {
+        width: 30%;
+    }
+
+    .wrappermenu li a {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .logo img {
+        width: 100%;
+        height: 120px;
+    }
+
+    /* home */
+    .home {
+        width: 100%;
+        height: auto;
+        padding: 20px 70px;
+    }
+
+    .wrapper-textimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper-textimg .textkiri h5 {
+        font-size: 24px;
+    }
+
+    .wrapper-textimg .textkiri h4 {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+
+    .wrapper-textimg .textkiri p {
+        font-size: 22px;
+        width: 80%;
+    }
+
+    .textkiri {
+        height: 50vh;
+    }
+
+    .cta {
+        margin: 15px 0;
+    }
+
+    .cta a {
+        font-size: 22px;
+    }
+
+    .cta span {
+        font-size: 22px;
+        margin: 0 10px;
+    }
+
+    .instagram {
+        width: 32px;
+        height: 32px;
+    }
+
+    .linkedin {
+        width: 32px;
+        height: 32px;
+        margin: 0 30px;
+    }
+
+    .dribbble {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* casestudy */
+
+    .casestudy {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    /* navbar */
+    .navbar {
+        padding: 20px 60px;
+    }
+
+    .wrappermenu {
+        width: 30%;
+    }
+
+    .wrappermenu li a {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .logo img {
+        width: 100%;
+        height: 110px;
+    }
+
+    /* home */
+    .home {
+        width: 100%;
+        height: auto;
+        padding: 20px 60px;
+    }
+
+    .wrapper-textimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper-textimg .textkiri h5 {
+        font-size: 22px;
+    }
+
+    .wrapper-textimg .textkiri h4 {
+        font-size: 32px;
+        margin: 15px 0;
+    }
+
+    .wrapper-textimg .textkiri p {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .textkiri {
+        height: 50vh;
+    }
+
+    .cta {
+        margin: 15px 0;
+    }
+
+    .cta a {
+        font-size: 20px;
+    }
+
+    .cta span {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .instagram {
+        width: 20px;
+        height: 20px;
+    }
+
+    .linkedin {
+        width: 20px;
+        height: 20px;
+        margin: 0 30px;
+    }
+
+    .dribbble {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* casestudy */
+    .casestudy {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    /* navbar */
+    .navbar {
+        padding: 20px 50px;
+    }
+
+    .wrappermenu {
+        width: 35%;
+    }
+
+    .wrappermenu li a {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100px;
+    }
+
+    /* home */
+    .home {
+        width: 100%;
+        height: auto;
+        padding: 20px 50px;
+    }
+
+    .wrapper-textimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper-textimg .textkiri h5 {
+        font-size: 20px;
+    }
+
+    .wrapper-textimg .textkiri h4 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+
+    .wrapper-textimg .textkiri p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .textkiri {
+        height: 50vh;
+    }
+
+    .cta {
+        margin: 15px 0;
+    }
+
+    .cta a {
+        font-size: 18px;
+    }
+
+    .cta span {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .instagram {
+        width: 16px;
+        height: 16px;
+    }
+
+    .linkedin {
+        width: 16px;
+        height: 16px;
+        margin: 0 30px;
+    }
+
+    .dribbble {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* casestudy */
+    .casestudy {
+        display: none;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -135,6 +388,7 @@ body {
 
     .wrappermenu li a {
         font-size: 18px;
+        font-weight: 300;
     }
 
     .logo img {
@@ -149,8 +403,6 @@ body {
         height: auto;
         padding: 20px 40px;
     }
-
-    .wrapper-textimg {}
 
     .wrapper-textimg img {
         width: 100%;
@@ -223,6 +475,7 @@ body {
 
     .wrappermenu li a {
         font-size: 14px;
+        font-weight: 300;
     }
 
     .logo img {
@@ -295,7 +548,104 @@ body {
 
     /* casestudy */
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 40px;
+    }
+
+    .casestudy .textatas h5 {
+        color: #9A9A9A;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 16px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 16px;
+        color: #9A9A9A;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 16px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 16px;
+        color: #9A9A9A;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
     }
 }
 
@@ -384,6 +734,103 @@ body {
 
     /* casestudy */
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .casestudy .textatas h5 {
+        color: #9A9A9A;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 16px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 16px;
+        color: #9A9A9A;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 16px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 16px;
+        color: #9A9A9A;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
     }
 }
