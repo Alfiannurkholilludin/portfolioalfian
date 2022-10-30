@@ -25,7 +25,7 @@ body {
 }
 
 .logo img {
-    width: 248px;
+    width: 100%;
     height: 84px;
 }
 
@@ -46,8 +46,7 @@ body {
 /* Home */
 .home {
     width: 100%;
-    height: 100vh;
-    display: block;
+    height: auto;
     padding: 30px 93px;
 }
 
@@ -72,7 +71,7 @@ body {
 .home .textkiri h4 {
     color: #fff;
     font-size: 42px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin: 30px 0;
     width: 70%;
 }
@@ -80,7 +79,7 @@ body {
 .home .textkiri p {
     color: #9A9A9A;
     font-size: 18px;
-    width: 50%;
+    width: 75%;
     text-align: justify;
 }
 
@@ -114,7 +113,117 @@ body {
     height: auto;
 }
 
-/* selected project */
+/* case study */
+.casestudy {
+    width: 100%;
+    height: auto;
+    padding: 30px 93px;
+}
+
+.casestudy .textatas h5 {
+    font-size: 32px;
+    color: #9A9A9A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.casestudy .textatas h4 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.cardproject {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.cardproject .card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.card1 {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cardproject .card1 .textwrappercard1 h5 {
+    font-size: 24px;
+    color: #9A9A9A;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.cardproject .card1 .textwrappercard1 h4 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.cardproject .card1 .textwrappercard1 p {
+    color: #9A9A9A;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+.casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card2 {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.cardproject .card2 img {
+    width: 100%;
+    height: auto;
+}
+
+.cardproject .card2 .textwrappercard2 h5 {
+    font-size: 24px;
+    color: #9A9A9A;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.cardproject .card2 .textwrappercard2 h4 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.cardproject .card2 .textwrappercard2 p {
+    color: #9A9A9A;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+.casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 
 @media (min-width: 1400px) and (max-width: 1918px) {
 
