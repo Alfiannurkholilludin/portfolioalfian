@@ -146,13 +146,42 @@ body {
     margin-right: 20px;
 }
 
-.card2 {
-    margin-lef: 20px;
-}
-
 .cardproject .card1 img {
     width: 100%;
     height: auto;
+}
+
+.textwrappercard1 h5 {
+    color: #9A9A9A;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.textwrappercard1 h4 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.textwrappercard1 p {
+    color: #9A9A9A;
+    font-size: 22px;
+    margin: 20px 0px;
+    width: 80%;
+    text-align: justify;
+}
+
+.card1 .textwrappercard1 .textcardicon a {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card2 {
+    margin-left: 20px;
 }
 
 .cardproject .card2 img {
@@ -160,7 +189,36 @@ body {
     height: auto;
 }
 
-@media (min-width: 1400px) and (max-width: 1918px) {
+.textwrappercard2 h5 {
+    color: #9A9A9A;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.textwrappercard2 h4 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.textwrappercard2 p {
+    color: #9A9A9A;
+    font-size: 22px;
+    margin: 20px 0px;
+    width: 80%;
+    text-align: justify;
+}
+
+.card2 .textwrappercard2 .textcardicon a {
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media (min-width: 1401px) and (max-width: 1918px) {
 
     /* navbar */
     .navbar {
@@ -241,13 +299,110 @@ body {
     }
 
     /* casestudy */
-
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 70px;
+    }
+
+    .casestudy .textatas h5 {
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #9A9A9A;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 24px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 24px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 24px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 24px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1201px) and (max-width: 1400px) {
 
     /* navbar */
     .navbar {
@@ -329,11 +484,110 @@ body {
 
     /* casestudy */
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 60px;
     }
+
+    .casestudy .textatas h5 {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #9A9A9A;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 22px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 22px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 22px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 26px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 22px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
 
     /* navbar */
     .navbar {
@@ -415,11 +669,109 @@ body {
 
     /* casestudy */
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 50px;
+    }
+
+    .casestudy .textatas h5 {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #9A9A9A;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 20px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 20px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 20px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 20px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 20px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
 
     /* navbar */
     .navbar {
@@ -502,7 +854,105 @@ body {
 
     /* casestudy */
     .casestudy {
-        display: none;
+        width: 100%;
+        height: auto;
+        padding: 20px 40px;
+    }
+
+    .casestudy .textatas h5 {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #9A9A9A;
+    }
+
+    .casestudy .textatas h4 {
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .cardproject {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card1 .textwrappercard1 h5 {
+        font-size: 18px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card1 .textwrappercard1 h4 {
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .card1 .textwrappercard1 p {
+        font-size: 18px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card2 .textwrappercard2 h5 {
+        font-size: 18px;
+        color: #9A9A9A;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        text-transform: uppercase;
+    }
+
+    .card2 .textwrappercard2 h4 {
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .card2 .textwrappercard2 p {
+        font-size: 18px;
+        color: #9A9A9A;
+        width: 100%;
+        margin: 20px 0px;
+        text-align: justify;
+    }
+
+    .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 5px;
+        font-weight: 400;
+        text-decoration: none;
     }
 }
 
@@ -641,6 +1091,7 @@ body {
     .card1 .textwrappercard1 p {
         font-size: 16px;
         color: #9A9A9A;
+        width: 100%;
         margin: 20px 0px;
         text-align: justify;
     }
@@ -656,7 +1107,6 @@ body {
     .card2 {
         width: 100%;
         height: auto;
-        margin-top: 30px;
     }
 
     .card2 img {
@@ -680,6 +1130,7 @@ body {
     .card2 .textwrappercard2 p {
         font-size: 16px;
         color: #9A9A9A;
+        width: 100%;
         margin: 20px 0px;
         text-align: justify;
     }
@@ -827,6 +1278,7 @@ body {
     .card1 .textwrappercard1 p {
         font-size: 16px;
         color: #9A9A9A;
+        width: 100%;
         margin: 20px 0px;
         text-align: justify;
     }
@@ -834,7 +1286,7 @@ body {
     .casestudy .cardproject .card1 .textwrappercard1 .textcardicon a {
         font-size: 16px;
         color: #fff;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         font-weight: 400;
         text-decoration: none;
     }
@@ -865,6 +1317,7 @@ body {
     .card2 .textwrappercard2 p {
         font-size: 16px;
         color: #9A9A9A;
+        width: 100%;
         margin: 20px 0px;
         text-align: justify;
     }
@@ -872,7 +1325,7 @@ body {
     .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
         font-size: 16px;
         color: #fff;
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         font-weight: 400;
         text-decoration: none;
     }
