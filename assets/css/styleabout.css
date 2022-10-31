@@ -16,6 +16,7 @@ body {
     font-family: "SF Pro Display", sans-serif;
 }
 
+/* header */
 .header {
     width: 100%;
     height: 50vh;
@@ -72,9 +73,23 @@ body {
 }
 
 /* Slideshow container */
+.slidetext {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.wrapperslidetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
+    padding: 40px 0;
     margin: auto;
 }
 
@@ -151,5 +166,285 @@ body {
 
     to {
         opacity: 1
+    }
+}
+
+.wrappertext-slider {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textservice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texttools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrappertext-slider .textservice h5 {
+    color: #9A9A9A;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.wrappertext-slider .textservice h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 24px;
+    width: 70%;
+    text-align: center;
+}
+
+.wrappertext-slider .textservice h3 em {
+    color: #9A9A9A;
+}
+
+.wrappertext-slider .texttools h5 {
+    color: #9A9A9A;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.wrappertext-slider .texttools h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 24px;
+    width: 70%;
+    text-align: center;
+}
+
+.wrappertext-slider .texttools h3 em {
+    color: #9A9A9A;
+}
+
+/* Experience sect */
+.experience {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+
+.wrappertext-experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textatas-experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textatas-experience h5 {
+    margin-top: 30px;
+    color: #9A9A9A;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.textatas-experience h1 {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    width: 65%;
+    text-align: center;
+}
+
+.textbawah-experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textbawah-experience h3 {
+    color: #9A9A9A;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.textbawah-experience h3 a {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* company experience */
+.company-experience {
+    width: 100%;
+    height: 40vh;
+    /* background-color: aqua; */
+}
+
+.wrappercompany-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    /* background-color: brown; */
+}
+
+.wrappercompany-experience .line1 {
+    display: flex;
+    width: 80%;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.wrappercompany-experience .line1 h3 {
+    color: #fff;
+    font-size: 20px;
+    width: 20%;
+    text-align: left;
+}
+
+.wrappercompany-experience .line1 h4 {
+    color: #9A9A9A;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 200;
+    text-align: left;
+}
+
+.wrappercompany-experience .line1 h5 {
+    color: #9A9A9A;
+    font-size: 20px;
+    font-weight: 500;
+    width: 20%;
+    text-align: right;
+}
+
+.wrappercompany-experience .line2 {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.wrappercompany-experience .line2 h3 {
+    color: #fff;
+    width: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.wrappercompany-experience .line2 h4 {
+    color: #9A9A9A;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 200;
+    text-align: left;
+}
+
+.wrappercompany-experience .line2 h5 {
+    color: #9A9A9A;
+    font-size: 20px;
+    font-weight: 500;
+    width: 20%;
+    text-align: right;
+}
+
+.wrappercompany-experience .line3 {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.wrappercompany-experience .line3 h3 {
+    color: #fff;
+    width: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.wrappercompany-experience .line3 h4 {
+    color: #9A9A9A;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 200;
+    text-align: left;
+}
+
+.wrappercompany-experience .line3 h5 {
+    color: #9A9A9A;
+    font-size: 20px;
+    width: 20%;
+    text-align: right;
+    font-weight: 500;
+}
+
+.wrappercompany-experience .line4 {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.wrappercompany-experience .line4 h3 {
+    color: #fff;
+    width: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.wrappercompany-experience .line4 h4 {
+    color: #9A9A9A;
+    font-size: 20px;
+    width: 20%;
+    font-weight: 200;
+    text-align: left;
+}
+
+.wrappercompany-experience .line4 h5 {
+    color: #9A9A9A;
+    width: 20%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+
+    .textatas-header h5 {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .textatas-header h1 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .textbawah-header h3 {
+        font-size: 14px;
+        width: 70%;
     }
 }
