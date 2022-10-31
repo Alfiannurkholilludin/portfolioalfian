@@ -431,6 +431,164 @@ body {
     font-weight: 500;
 }
 
+/* achivement */
+.achievement {
+    width: 100%;
+    height: auto;
+}
+
+.wrappercard1-achievement {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 40px;
+}
+
+.achievement1-card {
+    max-width: 450px;
+}
+
+.achievement1-card h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.achievement1-card p {
+    color: #9A9A9A;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.achievement1-card .btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.achievement2-card {
+    max-width: 450px;
+}
+
+.achievement2-card h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.achievement2-card p {
+    color: #9A9A9A;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.achievement2-card .btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.achievement3-card {
+    max-width: 450px;
+}
+
+.achievement3-card h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.achievement3-card p {
+    color: #9A9A9A;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.achievement3-card .btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrappercard2-achievement {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+.achievement4-card {
+    max-width: 450px;
+}
+
+.achievement4-card h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.achievement4-card p {
+    color: #9A9A9A;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.achievement4-card .btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.achievement5-card {
+    max-width: 450px;
+}
+
+.achievement5-card h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.achievement5-card p {
+    color: #9A9A9A;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.achievement5-card .btn {
+    color: #fff;
+    text-decoration: none;
+}
+
+.textheader-achievement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textheader-achievement h5 {
+    margin-top: 30px;
+    color: #9A9A9A;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.textheader-achievement h1 {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    width: 65%;
+    text-align: center;
+}
+
+
 @media (max-width: 576px) {
 
     .textatas-header h5 {
