@@ -1259,14 +1259,13 @@ body {
     }
 
     .cardproject {
-        width: 100%;
-        height: auto;
-        margin-top: 30px;
+        flex-direction: column;
     }
 
     .card1 {
         width: 100%;
         height: auto;
+        margin-right: 0;
     }
 
     .card1 img {
@@ -1306,6 +1305,8 @@ body {
     .card2 {
         width: 100%;
         height: auto;
+        margin-top: 30px;
+        margin-left: 0;
     }
 
     .card2 img {
