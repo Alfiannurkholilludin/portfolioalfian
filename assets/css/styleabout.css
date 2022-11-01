@@ -44,6 +44,28 @@ body {
     font-size: 16px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    animation: 2s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 
 .textatas-header h1 {
@@ -53,6 +75,7 @@ body {
     letter-spacing: 5px;
     width: 65%;
     text-align: center;
+    animation: 3s anim-lineUp ease-in-out;
 }
 
 .textbawah-header {
@@ -70,6 +93,7 @@ body {
     width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
+    animation: 4s anim-lineUp ease-in-out
 }
 
 /* Slideshow container */
