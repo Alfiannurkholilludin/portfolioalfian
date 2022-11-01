@@ -158,14 +158,6 @@ body {
     height: auto;
 }
 
-.cardproject .card1 .textwrappercard1 {
-    height: 300px;
-}
-
-.cardproject .card2 .textwrappercard2 {
-    height: 300px;
-}
-
 .textwrappercard1 h5 {
     color: #9A9A9A;
     font-size: 24px;
@@ -230,6 +222,36 @@ body {
     color: #fff;
     letter-spacing: 5px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+.textcardicon {
+    margin-top: 20px;
+}
+
+/* CTA to GMAIL */
+.cta-gmail {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.wrappercta-gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cta-gmail .wrappercta-gmail h5 {
+    color: #9A9A9A;
+    font-size: 24px;
+}
+
+.cta-gmail .wrappercta-gmail a {
+    color: #fff;
+    font-size: 60px;
     text-decoration: none;
 }
 
@@ -414,6 +436,36 @@ body {
         color: #fff;
         letter-spacing: 5px;
         font-weight: 400;
+        text-decoration: none;
+    }
+
+    .textcardicon {
+        margin-top: 20px;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
         text-decoration: none;
     }
 }
@@ -602,6 +654,36 @@ body {
         text-decoration: none;
     }
 
+    .textcardicon {
+        margin-top: 20px;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -785,6 +867,36 @@ body {
         color: #fff;
         letter-spacing: 5px;
         font-weight: 400;
+        text-decoration: none;
+    }
+
+    .textcardicon {
+        margin-top: 20px;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
         text-decoration: none;
     }
 }
@@ -971,6 +1083,36 @@ body {
         color: #fff;
         letter-spacing: 5px;
         font-weight: 400;
+        text-decoration: none;
+    }
+
+    .textcardicon {
+        margin-top: 20px;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
         text-decoration: none;
     }
 }
@@ -1162,6 +1304,36 @@ body {
         font-weight: 400;
         text-decoration: none;
     }
+
+    .textcardicon {
+        margin-top: 20px;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1344,11 +1516,41 @@ body {
         text-align: justify;
     }
 
+    .textcardicon {
+        margin-top: 20px;
+    }
+
     .casestudy .cardproject .card2 .textwrappercard2 .textcardicon a {
         font-size: 16px;
         color: #fff;
         letter-spacing: 2px;
         font-weight: 400;
+        text-decoration: none;
+    }
+
+    /* CTA to GMAIL */
+    .cta-gmail {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+    }
+
+    .wrappercta-gmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta-gmail .wrappercta-gmail h5 {
+        color: #9A9A9A;
+        font-size: 16px;
+    }
+
+    .cta-gmail .wrappercta-gmail a {
+        color: #fff;
+        font-size: 40px;
         text-decoration: none;
     }
 }
