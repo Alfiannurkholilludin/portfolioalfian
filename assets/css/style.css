@@ -146,6 +146,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: 30px;
+
 }
 
 .card1 {
@@ -155,6 +156,14 @@ body {
 .cardproject .card1 img {
     width: 100%;
     height: auto;
+}
+
+.cardproject .card1 .textwrappercard1 {
+    height: 300px;
+}
+
+.cardproject .card2 .textwrappercard2 {
+    height: 300px;
 }
 
 .textwrappercard1 h5 {
