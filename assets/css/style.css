@@ -93,6 +93,11 @@ body {
     text-decoration: none;
 }
 
+.cta a:hover {
+    text-decoration: underline;
+    transition-delay: 1.5s;
+}
+
 .cta span {
     color: #9A9A9A;
     font-size: 18px;
