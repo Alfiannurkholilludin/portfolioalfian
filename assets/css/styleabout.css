@@ -199,7 +199,7 @@ body {
 }
 
 .wrappertext-slider .textservice h3 {
-    margin-top: 25px;
+    margin-top: 15px;
     color: #fff;
     font-size: 24px;
     width: 70%;
@@ -218,7 +218,7 @@ body {
 }
 
 .wrappertext-slider .texttools h3 {
-    margin-top: 25px;
+    margin-top: 15px;
     color: #fff;
     font-size: 24px;
     width: 70%;
@@ -232,7 +232,7 @@ body {
 /* Experience sect */
 .experience {
     width: 100%;
-    height: 50vh;
+    height: auto;
     display: flex;
     /* background-color: aqua; */
 
@@ -271,6 +271,7 @@ body {
 
 .textbawah-experience {
     display: flex;
+    height: auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -294,7 +295,7 @@ body {
 /* company experience */
 .company-experience {
     width: 100%;
-    height: 40vh;
+    height: auto;
     /* background-color: aqua; */
 }
 
@@ -304,8 +305,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 40vh;
-    /* background-color: brown; */
+    height: auto;
 }
 
 .wrappercompany-experience .line1 {
@@ -453,13 +453,8 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 20px;
     font-family: "SF Pro Display", sans-serif;
-}
-
-.achievement1-card p {
-    color: #9A9A9A;
-    text-align: justify;
-    margin: 20px 0px;
 }
 
 .achievement1-card .btn {
@@ -475,13 +470,8 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 20px;
     font-family: "SF Pro Display", sans-serif;
-}
-
-.achievement2-card p {
-    color: #9A9A9A;
-    text-align: justify;
-    margin: 20px 0px;
 }
 
 .achievement2-card .btn {
@@ -497,13 +487,8 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 20px;
     font-family: "SF Pro Display", sans-serif;
-}
-
-.achievement3-card p {
-    color: #9A9A9A;
-    text-align: justify;
-    margin: 20px 0px;
 }
 
 .achievement3-card .btn {
@@ -528,13 +513,8 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 20px;
     font-family: "SF Pro Display", sans-serif;
-}
-
-.achievement4-card p {
-    color: #9A9A9A;
-    text-align: justify;
-    margin: 20px 0px;
 }
 
 .achievement4-card .btn {
@@ -550,13 +530,8 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 20px;
     font-family: "SF Pro Display", sans-serif;
-}
-
-.achievement5-card p {
-    color: #9A9A9A;
-    text-align: justify;
-    margin: 20px 0px;
 }
 
 .achievement5-card .btn {
@@ -588,6 +563,32 @@ body {
     text-align: center;
 }
 
+/* CTA to GMAIL */
+.cta-gmail {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.wrappercta-gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cta-gmail .wrappercta-gmail h5 {
+    color: #9A9A9A;
+    font-size: 16px;
+}
+
+.cta-gmail .wrappercta-gmail a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
 
 @media (max-width: 576px) {
 
@@ -604,5 +605,245 @@ body {
     .textbawah-header h3 {
         font-size: 14px;
         width: 70%;
+    }
+
+    /* slidetext */
+    .slidetext {
+        padding: 20px 15px;
+    }
+
+    .wrappertext-slider .textservice {
+        width: 100%;
+        height: 60%;
+    }
+
+    .wrappertext-slider .textservice h5 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .wrappertext-slider .textservice h3 {
+        font-size: 16px;
+        width: 70%;
+        height: 60%;
+    }
+
+    .wrappertext-slider .texttools {
+        width: 100%;
+        height: 60%;
+    }
+
+    .wrappertext-slider .texttools h5 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .wrappertext-slider .texttools h3 {
+        font-size: 16px;
+        width: 80%;
+        height: 60%;
+    }
+
+    /* experience */
+    .experience {
+        padding: 20px 15px;
+    }
+
+    .textatas-experience h5 {
+        font-size: 14px;
+    }
+
+    .textatas-experience h1 {
+        font-size: 24px;
+    }
+
+    .textbawah-experience {}
+
+    .textbawah-experience h3 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .textbawah-experience h3 a {
+        font-size: 16px;
+    }
+
+    /* company experience */
+    .company-experience {
+        padding: 20px 15px;
+    }
+
+    .wrappercompany-experience .line1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .wrappercompany-experience .line1 h3 {
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line1 h4 {
+        font-size: 16px;
+        width: 100%;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+    .wrappercompany-experience .line1 h5 {
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .wrappercompany-experience .line2 h3 {
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line2 h4 {
+        font-size: 16px;
+        width: 100%;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+    .wrappercompany-experience .line2 h5 {
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line3 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .wrappercompany-experience .line3 h3 {
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line3 h4 {
+        font-size: 16px;
+        width: 100%;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+    .wrappercompany-experience .line3 h5 {
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line4 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .wrappercompany-experience .line4 h3 {
+        color: #fff;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrappercompany-experience .line4 h4 {
+        font-size: 16px;
+        width: 100%;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+    .wrappercompany-experience .line4 h5 {
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* achievement */
+    .achievement {
+        padding: 20px 15px;
+    }
+
+    .textheader-achievement h5 {
+        font-size: 14px;
+    }
+
+    .textheader-achievement h1 {
+        font-size: 24px;
+        width: 90%;
+    }
+
+    .wrappercard1-achievement {
+        flex-direction: column;
+    }
+
+    .achievement1-card {
+        margin-bottom: 20px;
+    }
+
+    .achievement1-card h1 {
+        font-size: 20px;
+    }
+
+    .achievement1-card .btn {
+        font-size: 16px;
+    }
+
+    .achievement2-card {
+        margin-bottom: 20px;
+    }
+
+    .achievement2-card h1 {
+        font-size: 20px;
+    }
+
+    .achievement2-card .btn {
+        font-size: 16px;
+    }
+
+    .achievement3-card h1 {
+        font-size: 20px;
+    }
+
+    .achievement3-card .btn {
+        font-size: 16px;
+    }
+
+    .wrappercard2-achievement {
+        flex-direction: column;
+    }
+
+    .achievement4-card {
+        margin-bottom: 20px;
+    }
+
+    .achievement4-card h1 {
+        font-size: 20px;
+    }
+
+    .achievement5-card h1 {
+        font-size: 20px;
     }
 }
