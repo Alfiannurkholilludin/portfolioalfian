@@ -44,3 +44,4 @@ sr.reveal('.home', {});
 sr.reveal('.wrapper-textimg', { delay: 200 });
 sr.reveal('.textkiri', { delay: 400 });
 sr.reveal('.imgkanan', { interval: 200 });
+
