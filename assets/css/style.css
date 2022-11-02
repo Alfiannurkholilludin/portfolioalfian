@@ -1,6 +1,6 @@
 @font-face {
     font-family: "SF Pro Display";
-    src: url("assets/font/SFPRODISPLAYREGULAR.OTF") format("truetype");
+    src: url("assets/font/sfprdisplay.otf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
@@ -1791,4 +1791,7 @@ body {
         color: #9A9A9A;
         font-size: 16px;
     }
+
+    /* personal Project */
+
 }

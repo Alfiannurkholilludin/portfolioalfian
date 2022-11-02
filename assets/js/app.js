@@ -11,7 +11,6 @@ function myFunction() {
     }
 }
 
-
 let slideIndex = 0;
 showSlides();
 
@@ -31,3 +30,17 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 6000); // Change image every 6 seconds
 }
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+/*SCROLL HOME*/
+sr.reveal('.home', {});
+sr.reveal('.wrapper-textimg', { delay: 200 });
+sr.reveal('.textkiri', { delay: 400 });
+sr.reveal('.imgkanan', { interval: 200 });
