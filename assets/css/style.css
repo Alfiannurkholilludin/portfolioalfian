@@ -275,6 +275,9 @@ body {
     margin-top: 20px;
 }
 
+/* personal project */
+.container-personalproject {}
+
 /* CTA to GMAIL */
 .cta-gmail {
     width: 100%;
